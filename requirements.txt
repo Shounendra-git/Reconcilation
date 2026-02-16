@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+openai
+oracledb
+pandas
+python-multipart
+python-dotenv
+streamlit
+numpy
+scikit-learn

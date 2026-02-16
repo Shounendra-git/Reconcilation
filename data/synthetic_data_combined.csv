@@ -1,0 +1,14 @@
+-- File: data/synthetic_data.csv
+-- Synthetic Invoices
+invoice_id,amount,currency,vendor_name,po_number,invoice_date
+INV-001,1500.00,USD,Global Logistics,PO-5521,2024-01-05
+INV-002,2300.50,USD,Cloud Systems,PO-5522,2024-01-06
+INV-003,500.00,USD,Office Depot,PO-5523,2024-01-07
+INV-004,1200.00,EUR,Euro-Parts,PO-5524,2024-01-08
+
+-- Synthetic Payments
+payment_id,amount,currency,sender_name,trace_id,remittance_raw,payment_date
+PAY-991,1500.00,USD,Global Logistics,TR-100,In payment of INV-001 via ACH,2024-01-10
+PAY-992,2300.50,USD,Cloud LLC,TR-101,PO-5522 set-off,2024-01-11
+PAY-993,450.00,USD,Office Depot,TR-102,Partial payment INV-003,2024-01-12
+PAY-994,1000.00,USD,Unknown Vendor,TR-103,Payment for mystery goods,2024-01-13

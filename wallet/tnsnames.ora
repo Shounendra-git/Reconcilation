@@ -1,0 +1,12 @@
+reconcilationdb_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-hyderabad-1.oraclecloud.com))(connect_data=(service_name=g8aad10898e6614_reconcilationdb_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+reconcilationdb_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-hyderabad-1.oraclecloud.com))(connect_data=(service_name=g8aad10898e6614_reconcilationdb_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+reconcilationdb_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-hyderabad-1.oraclecloud.com))(connect_data=(service_name=g8aad10898e6614_reconcilationdb_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+reconcilationdb_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-hyderabad-1.oraclecloud.com))(connect_data=(service_name=g8aad10898e6614_reconcilationdb_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+reconcilationdb_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-hyderabad-1.oraclecloud.com))(connect_data=(service_name=g8aad10898e6614_reconcilationdb_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+
